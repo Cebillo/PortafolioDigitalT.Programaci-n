@@ -1,31 +1,22 @@
-# 💻 Portafolio de Programación
+# Portafolio de Teoría de la Programación
+# UNIVERSIDAD NACIONAL DE LOJA
+## Datos del estudiante
+- Nombre: Carlos Esteban Cevallos Soto
+- Ciclo: 1ro
+- Docente: Ing. Lisstte Geoconda Lopez Faican
 
-## 👤 Datos del estudiante
-- Nombre: Carlos Cevallos
-- Curso: Segundo de Bachillerato
-- Institución: La Salle
 
----
+## Descripción
+Este repositorio contiene todas los APES Y AA trabajados en cada unidad del ciclo.
 
-## 📘 Descripción
-Este repositorio contiene todas las actividades, tareas y proyectos realizados durante el curso de programación, organizados por unidades.
 
----
+## Contenido
 
-## 📂 Contenido
+### Unidad 1: 
 
-### 📘 Unidad 1: Fundamentos de Programación
-- Introducción a la programación
-- Tipos de datos
-- Variables
-- Primeros programas
 
-### 📘 Unidad 2: Estructuras de Control
-- Condicionales (if, else)
-- Ciclos (for, while)
-- Ejercicios prácticos
+### Unidad 2: 
 
-### 📘 Unidad 3: Programación Aplicada
-- Resolución de problemas
-- Programas completos
-- Mini proyectos
+
+### Unidad 3: 
+
