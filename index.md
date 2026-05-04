@@ -46,7 +46,7 @@ Una prueba de escritorio es una técnica para verificar el funcionamiento de un 
 Consiste en simular manualmente cómo se comporta el programa, usando valores de entrada y anotando los resultados en cada paso, generalmente en una tabla.
 
 <img width="477" height="377" alt="image" src="https://github.com/user-attachments/assets/d301bb56-42d6-4213-8952-6f96c43b08d1" />
-<img width="1216" height="621" alt="WhatsApp Image 2026-05-04 at 12 18 06 AM" src="https://github.com/user-attachments/assets/15d48ee3-0710-44f9-96a4-a14e35c4dee6" />
+<img width="1016" height="621" alt="WhatsApp Image 2026-05-04 at 12 18 06 AM" src="https://github.com/user-attachments/assets/15d48ee3-0710-44f9-96a4-a14e35c4dee6" />
 #### **Lenguajes de programación**
 
 **C** = El lenguaje C es un lenguaje de programación de propósito general, creado para desarrollar sistemas y aplicaciones de manera eficiente. Se caracteriza por ser rápido, estructurado y cercano al hardware, lo que permite tener un mayor control sobre la memoria y los recursos del computador.
