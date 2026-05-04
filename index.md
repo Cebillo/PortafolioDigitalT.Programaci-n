@@ -2,10 +2,10 @@
 # Portafolio de Teoría de la Programación
 
 ## Datos Generales
-| **Estudiante:** Carlos Esteban Cevallos Soto
-| **Carrera:** Computación
-| **Docente:** Lissette Geoconda Lopéz Faican
-| **Periodo:** 2026 |
+**Estudiante:** Carlos Esteban Cevallos Soto
+**Carrera:** Computación
+**Docente:** Lissette Geoconda Lopéz Faican
+**Periodo:** 2026 
 
 
 ## Descripción
