@@ -1,4 +1,4 @@
-#               UNIVERSIDAD NACIONAL DE LOJA
+# UNIVERSIDAD NACIONAL DE LOJA
 # Portafolio de Teoría de la Programación
 
 ## Datos del estudiante
