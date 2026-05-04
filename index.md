@@ -1,10 +1,12 @@
 # UNIVERSIDAD NACIONAL DE LOJA
 # Portafolio de Teoría de la Programación
 
-## Datos del estudiante
-- Nombre: Carlos Esteban Cevallos Soto
-- Ciclo: 1ro
-- Docente: Ing. Lisstte Geoconda Lopez Faican
+## Datos Generales
+| DETALLE | INFORMACIÓN |
+| **Estudiante** | Carlos Cevallos |
+| **Carrera** | Bachillerato |
+| **Docente** | (pon el nombre de tu profe) |
+| **Periodo** | 2026 |
 
 
 ## Descripción
