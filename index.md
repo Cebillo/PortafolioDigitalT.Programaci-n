@@ -2,14 +2,14 @@
 # Portafolio de Teoría de la Programación
 
 ## Datos Generales
-**Estudiante:** Carlos Esteban Cevallos Soto
-**Carrera:** Computación
-**Docente:** Lissette Geoconda Lopéz Faican
-**Periodo:** 2026 
+-**Estudiante:** Carlos Esteban Cevallos Soto
+-**Carrera:** Computación
+-**Docente:** Lissette Geoconda Lopéz Faican
+-**Periodo:** 2026 
 
 
 ## Descripción
-Este repositorio contiene todas los APES Y AA trabajados en cada unidad del ciclo.
+-Este repositorio contiene todas los APES Y AA trabajados en cada unidad del ciclo.
 
 
 ## Contenido
