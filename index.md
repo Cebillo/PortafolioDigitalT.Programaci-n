@@ -3,8 +3,11 @@
 
 ## Datos Generales
 -Estudiante: Carlos Esteban Cevallos Soto
+
 -Carrera: Computación
+
 -Docente: Lissette Geoconda Lopéz Faican
+
 -Periodo: 2026 
 
 
