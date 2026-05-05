@@ -1,4 +1,5 @@
 # **UNIVERSIDAD NACIONAL DE LOJA**
+<img width="500" height="500" alt="Universidad-Nacional-de-Loja-UNL" src="https://github.com/user-attachments/assets/d638acdd-7bc7-455b-88e4-fdab6f252695" />
 
 # **Portafolio de Teoría de la Programación**
 
