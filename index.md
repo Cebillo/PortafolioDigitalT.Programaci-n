@@ -1,5 +1,8 @@
-<div style="text-align: center;">
 
+<div style="text-align: center;">
+<div align="center">
+  <img width="175" height="175" alt="Universidad-Nacional-de-Loja-UNL" src="https://github.com/user-attachments/assets/665515f0-b602-43ae-802b-f9e4ba625b0a" />
+</div>
 <h1 align="center"<b>UNIVERSIDAD NACIONAL DE LOJA</b><br>
 Facultad de la Energía, las Industrias y los Recursos Naturales no Renovables
 </div>
