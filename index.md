@@ -1,10 +1,10 @@
 <div style="text-align: center;">
 
-<h2 align="center"<b>UNIVERSIDAD NACIONAL DE LOJA</b><br>
+<h1 align="center"<b>UNIVERSIDAD NACIONAL DE LOJA</b><br>
 Facultad de la Energía, las Industrias y los Recursos Naturales no Renovables
 </div>
 
-<h2 align="center">📘 PORTAFOLIO DE TEORÍA DE LA PROGRAMACIÓN</h2>
+<h3>📘 PORTAFOLIO DE TEORÍA DE LA PROGRAMACIÓN</h3>
 
 
 
