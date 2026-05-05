@@ -1,23 +1,24 @@
-# **UNIVERSIDAD NACIONAL DE LOJA**
-<img width="500" height="500" alt="Universidad-Nacional-de-Loja-UNL" src="https://github.com/user-attachments/assets/d638acdd-7bc7-455b-88e4-fdab6f252695" />
+<p # **UNIVERSIDAD NACIONAL DE LOJA** >
 
-# **Portafolio de Teoría de la Programación**
+</p>
 
-## **Datos Generales**
+# **Portafolio de Teoría de la Programación** 
+
+## **Datos Generales** 
 
 -**Estudiante:** Carlos Esteban Cevallos Soto
 
--**Docente:** Lissette Geoconda Lopéz Faican
+-**Docente:** Lissette Geoconda Lopéz Faican 
 
 -**Facultdad** Facultad de la Energía, las Industrias y los Recursos Naturales no Renovables
 
 -**Carrera:** Computación
 
--**Asignatura:** Teoría de la programación
+-**Asignatura:** Teoría de la programación 
 
--**Ciclo:** Primer ciclo
+-**Ciclo:** Primer ciclo 
 
--**Periodo:** Abril - Agosto
+-**Periodo:** Abril - Agosto 
 
 
 ## **Descripción**
