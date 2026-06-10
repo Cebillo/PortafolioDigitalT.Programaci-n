@@ -28,8 +28,7 @@ Las **estructuras condicionales** permiten que un programa tome decisiones y eje
 ---
 
 ### 1.1 Tipos de Estructuras Condicionales
-
-#### 🔹 1. Condicional Simple (`if`)
+#### 🔹 1. Condicional Simple (if)
 
 Ejecuta un bloque de instrucciones **solo si** la condición es verdadera. Si la condición es falsa, no hace nada.
 
@@ -38,10 +37,9 @@ Si (condición) entonces
     [instrucciones]
 Fin Si
 ```
+#### 🔹 2. Condicional Doble (if - else)
 
-#### 🔹 2. Condicional Doble (`if - else`)
-
-Evalúa una condición y ejecuta un bloque si es **verdadera**, y otro bloque diferente si es **falsa**. Siempre se ejecuta exactamente uno de los dos bloques.
+Evalúa una condición y ejecuta un bloque si es verdadera, y otro bloque diferente si es falsa. Siempre se ejecuta exactamente uno de los dos bloques.
 
 ```
 Si (condición) entonces
@@ -50,7 +48,7 @@ Si no
     [instrucciones si falso]
 Fin Si
 ---
-
+```
 #### 🔹 3. Condicional Múltiple (`if - else if - else`)
 
 Permite evaluar **varias condiciones** en cadena. Se comprueba cada condición en orden; cuando una es verdadera, se ejecuta su bloque y se omiten las demás.
@@ -71,7 +69,7 @@ Fin Si
 
 #### 🔹 4. Selección por Casos (`switch - case`)
 
-Compara una variable con múltiples valores posibles (**casos**) y ejecuta el bloque correspondiente al valor que coincida. Es una alternativa más clara al `if-else if` cuando se compara la misma variable con valores discretos.
+Compara una variable con múltiples valores posibles y ejecuta el bloque correspondiente al valor que coincida. Es una alternativa más clara al if-else if cuando se compara la misma variable con valores discretos.
 
 ```
 Según (variable) hacer
@@ -86,9 +84,9 @@ Fin Según
 
 ### 1.2 Diagrama de Flujo – Condicional
 
-A continuación se presentan los diagramas de flujo para las dos estructuras condicionales más utilizadas:
+A continuación se presentan los diagramas de flujo para las dos estructuras condicionales:
 
-#### Condicional Simple (`if`)
+#### Condicional Simple (if)
 
 ```
        ┌─────────┐
@@ -109,10 +107,10 @@ A continuación se presentan los diagramas de flujo para las dos estructuras con
        └─────────┘
 ```
 
-#### Condicional Doble (`if - else`)
+#### Condicional Doble (if - else)
 
 ```
-```
+
             ┌─────────┐
             │  INICIO │
             └────┬────┘
@@ -131,7 +129,6 @@ A continuación se presentan los diagramas de flujo para las dos estructuras con
           │   FIN   │
           └─────────┘
 ```
-```
 
 > 💡 **Simbología usada:**
 > - **Óvalo**: Inicio / Fin del algoritmo
@@ -145,7 +142,7 @@ A continuación se presentan los diagramas de flujo para las dos estructuras con
 
 #### Ejemplo: Determinar si un número es positivo, negativo o cero
 
-```
+
 ```
 ALGORITMO ClasificarNumero
     INICIO
@@ -167,13 +164,13 @@ FIN ALGORITMO
 
 ## 2. Estructuras Repetitivas
 
-Las **estructuras repetitivas** permiten ejecutar un conjunto de instrucciones varias veces mientras se cumpla una condición. Evitan la repetición manual de código y permiten procesar colecciones de datos.
+Las estructuras repetitivas permiten ejecutar un conjunto de instrucciones varias veces mientras se cumpla una condición. Evitan la repetición manual de código y permiten procesar colecciones de datos.
 
 ---
 
 ### 2.1 Tipos de Estructuras Repetitivas
 
-#### 🔄 1. Bucle `while` (Mientras)
+#### 🔄 1. Bucle while
 
 Repite un bloque de instrucciones mientras la condición sea verdadera. La condición se evalúa antes de ejecutar el bloque, por lo que si la condición es falsa desde el inicio, el bloque nunca se ejecuta.
 
@@ -200,9 +197,9 @@ Mientras (condición)
 
 #### 🔄 3. Bucle `for` 
 
-Repite un bloque un número **determinado** de veces, controlado por un contador con valor inicial, condición de parada e incremento.
-
+Repite un bloque un número determinado de veces, controlado por un contador con valor inicial, condición de parada e incremento.
 ```
+
 Para i = valorInicial hasta valorFinal con paso N hacer
     [instrucciones]
 Fin Para
@@ -212,8 +209,8 @@ Fin Para
 
 #### Comparativa de los tres tipos
 
-| Característica      | `while`         | `do-while`        | `for`                |
-|---------------------|-----------------|-------------------|--------------------  |
+| Característica        | `while`          | `do-while`         | `for`            |
+|-----------------------|------------------|--------------------|------------------|
 | Evaluación condición  | Antes del bloque | Después del bloque | Antes del bloque |
 | Ejecuciones mínimas   | 0                | 1                  | 0                |
 | Contador explícito    | Manual           | Manual             | Incorporado      |
@@ -240,6 +237,7 @@ SÍ
     └────────┬───────┘
              │
              └────────────────┘ (vuelve a la condición)
+
 ```
 
 #### Bucle `do-while` (condición al final)
@@ -263,7 +261,7 @@ SÍ
        └─────────┘
 ```
 
-#### Bucle `for` (con contador)
+#### Bucle for (con contador)
 
 ```
        ┌─────────┐
@@ -293,7 +291,7 @@ SÍ
 
 ### 2.3 Pseudocódigo – Repetitiva
 
-#### Ejemplo con `while`: Leer números hasta ingresar 0
+#### Ejemplo con while: Leer números hasta ingresar 0
 
 ```
 ALGORITMO LeerHastaCero
@@ -310,7 +308,7 @@ ALGORITMO LeerHastaCero
 FIN ALGORITMO
 ```
 
-#### Ejemplo con `for`: Mostrar la tabla de multiplicar de un número
+#### Ejemplo con for: Mostrar la tabla de multiplicar de un número
 
 ```
 ALGORITMO TablaMultiplicar
@@ -330,7 +328,6 @@ FIN ALGORITMO
 
 ### 3.1 Planteamiento del Problema
 
-> **Enunciado:**
 > Desarrollar un programa que permita ingresar las calificaciones de **N estudiantes**. Para cada estudiante, el programa debe leer su nombre y su nota (de 0 a 10), determinar si **aprobó o reprobó** (aprueba con nota ≥ 7), y al final mostrar:
 > - El promedio general del grupo
 > - La nota más alta obtenida
