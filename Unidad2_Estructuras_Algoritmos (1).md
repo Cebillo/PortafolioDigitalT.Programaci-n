@@ -28,7 +28,7 @@
 
 ## 1. Estructuras Condicionales
 
-Las **estructuras condicionales** permiten que un programa tome decisiones y ejecute distintos bloques de código según si una condición es verdadera o falsa. Son el mecanismo fundamental para añadir lógica y ramificación en los algoritmos.
+Las **estructuras condicionales** permiten que un programa tome decisiones y ejecute distintos bloques de código según si una condición es verdadera o falsa.
 
 ---
 
@@ -44,10 +44,6 @@ Si (condición) entonces
 Fin Si
 ```
 
-**Ejemplo de uso:** Mostrar un mensaje si el usuario es mayor de edad.
-
----
-
 #### 🔹 2. Condicional Doble (`if - else`)
 
 Evalúa una condición y ejecuta un bloque si es **verdadera**, y otro bloque diferente si es **falsa**. Siempre se ejecuta exactamente uno de los dos bloques.
@@ -58,10 +54,6 @@ Si (condición) entonces
 Si no
     [instrucciones si falso]
 Fin Si
-```
-
-**Ejemplo de uso:** Determinar si un número es par o impar.
-
 ---
 
 #### 🔹 3. Condicional Múltiple (`if - else if - else`)
@@ -80,8 +72,6 @@ Si no
 Fin Si
 ```
 
-**Ejemplo de uso:** Clasificar una nota en A, B, C, D o F.
-
 ---
 
 #### 🔹 4. Selección por Casos (`switch - case`)
@@ -96,8 +86,6 @@ Según (variable) hacer
     Por defecto:  [instrucciones]
 Fin Según
 ```
-
-**Ejemplo de uso:** Mostrar el nombre del día de la semana según un número del 1 al 7.
 
 ---
 
@@ -398,47 +386,46 @@ FIN ALGORITMO
                     └────────┬─────────┘
                              │
                     ┌────────▼─────────┐
-                    │  Leer n           │
+                    │  Leer n          |
                     └────────┬─────────┘
                              │
                     ┌────────▼──────────────────────┐
-                    │ suma=0, aprobados=0,           │
-                    │ reprobados=0, notaMaxima=0,    │
-                    │ i=1                            │
+                    │ suma=0, aprobados=0,          |
+                    │ reprobados=0, notaMaxima=0,   |
+                    │ i=1                           |
                     └────────┬──────────────────────┘
                              │
                     ┌────────▼─────────┐
                ┌────┤     i <= n       ├──── NO ────────────┐
-               SÍ   └──────────────────┘                    │
-               │                                             │
-     ┌─────────▼──────────┐                                 │
-     │ Leer nombre, nota  │                                 │
-     └─────────┬──────────┘                                 │
-               │                                             │
-     ┌─────────▼──────────┐                                 │
-     │ suma = suma + nota  │                                 │
-     └─────────┬──────────┘                                 │
-               │                                             │
-     ┌─────────▼──────────┐                                 │
-     │  nota > notaMaxima │──SÍ──► notaMaxima = nota        │
-     └─────────┬──────────┘                                 │
-               │                                             │
-     ┌─────────▼──────────┐                                 │
-┌────┤     nota >= 7       ├──── NO ────┐                   │
-SÍ   └────────────────────┘            │                   │
-│                                       │                   │
-▼                                       ▼                   │
-aprobados++                       reprobados++              │
-│                                       │                   │
-└──────────────┬────────────────────────┘                   │
-               │                                             │
-     ┌─────────▼──────────┐                                 │
-     │     i = i + 1      │                                 │
-     └─────────┬──────────┘                                 │
-               └──────────────────────────┘ (vuelve)        │
-                                                             │
+               SÍ   └──────────────────┘                     │
+               │                                             |
+     ┌─────────▼──────────┐                                  │
+     │ Leer nombre, nota  │                                  │
+     └─────────┬──────────┘                                  │
+               │                                             |
+     ┌─────────▼──────────┐                                  │ 
+     │ suma = suma + nota |                                  |
+     └─────────┬──────────┘                                  │
+               │                                             |
+     ┌─────────▼──────────┐                                  │
+     │  nota > notaMaxima │──SÍ──► notaMaxima = nota         │
+     └─────────┬──────────┘                                  │
+               │                                             |
+     ┌─────────▼──────────┐                                  │
+┌────┤     nota >= 7       ├──── NO ────┐                    │ 
+SÍ   └────────────────────┘             │                    | 
+│                                       │                    │
+▼                                       ▼                    │
+aprobados++                       reprobados++               │
+│                                       │                    │
+└──────────────┬────────────────────────┘                    │
+               │                                             |
+     ┌─────────▼──────────┐                                  │
+     │     i = i + 1      │                                  │
+     └─────────┬──────────┘                                  │
+               └──────────────────────────┘ (vuelve)         │
                     ┌────────▼──────────────────────┐◄───────┘
-                    │ promedio = suma / n            │
+                    │ promedio = suma / n           |
                     └────────┬──────────────────────┘
                              │
                     ┌────────▼──────────────────────┐
@@ -511,7 +498,7 @@ def main():
     print("=" * 45)
     print(f"  Total de estudiantes : {n}")
     print(f"  Promedio del grupo   : {promedio:.2f}")
-    print(f"  Nota más alta        : {nota_maxima:.1f}")
+    print(f"  Nota mas alta        : {nota_maxima:.1f}")
     print(f"  Estudiantes aprobados: {aprobados}")
     print(f"  Estudiantes reprobados: {reprobados}")
     print("=" * 45)
@@ -597,32 +584,14 @@ Nota de Lucía (0-10): 7.0
 #### 1. Comprensión de las condiciones en los bucles
 Al inicio resultó confuso entender la diferencia entre un bucle `while` (que puede no ejecutarse nunca) y un `do-while` (que siempre se ejecuta al menos una vez). Elegir el tipo incorrecto puede generar errores lógicos difíciles de detectar.
 
-#### 2. Inicialización de variables acumuladoras
-Un error frecuente fue olvidar inicializar las variables como `suma = 0` o `aprobados = 0` antes del bucle. Si estas variables no se inicializan, el programa produce resultados incorrectos o errores de referencia.
-
-#### 3. Condiciones lógicas incorrectas
-Escribir condiciones como `nota >= 7` en lugar de `nota > 7` o `nota > 6` causó confusión al principio. Un error de un símbolo puede cambiar completamente el comportamiento del programa. Fue necesario revisar cuidadosamente los operadores de comparación (`>`, `>=`, `<`, `<=`, `==`, `!=`).
-
-#### 4. Bucles infinitos
-Durante las pruebas se generaron bucles infinitos por olvidar actualizar la variable de control (el contador `i`) dentro del bucle, o por plantear una condición que nunca se vuelve falsa.
-
-#### 5. Validación de datos de entrada
-Al principio no se contemplaba validar que la nota estuviera en el rango correcto. Agregar la validación con un bucle `while` anidado fue un aprendizaje importante sobre la robustez de un programa.
-
----
-
 ### 💡 Reflexión Crítica
 
 El estudio de las estructuras condicionales y repetitivas marcó un punto de inflexión en mi comprensión de la programación. Antes de esta unidad, los programas que podía escribir eran secuenciales y limitados; ahora comprendo que la lógica real de cualquier sistema está construida sobre decisiones y repeticiones.
 
-**Lo más valioso** fue aprender que el diseño del algoritmo —tanto en pseudocódigo como en diagrama de flujo— debe hacerse **antes** de escribir código. Cuando se salta este paso y se va directamente a programar, el código tiende a ser desordenado y lleno de errores difíciles de corregir.
+**Lo más valioso** fue aprender que el diseño del algoritmo tanto en pseudocódigo como en diagrama de flujo debe hacerse **antes** de escribir código. Cuando se salta este paso y se va directamente a programar, el código tiende a ser desordenado y lleno de errores difíciles de corregir.
 
 **El mayor aprendizaje** fue que los errores lógicos son más peligrosos que los errores de sintaxis: el programa puede ejecutarse sin mensajes de error pero producir resultados completamente incorrectos. La prueba de escritorio es una herramienta esencial para detectar estos errores antes de la ejecución.
 
-**Para el futuro**, me propongo:
-- Siempre diagramar antes de codificar
-- Probar con casos límite (nota = 0, nota = 10, n = 1)
-- Agregar comentarios descriptivos en el código desde el inicio
 
 > *"Un algoritmo bien diseñado es la mitad del problema resuelto."*
 
