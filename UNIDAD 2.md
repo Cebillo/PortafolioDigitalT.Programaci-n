@@ -1,9 +1,4 @@
 # 📘 Unidad 2 
-
-> **Portafolio de Aprendizaje** · Fundamentos de Programación  
-> Autor: *(Tu nombre aquí)*  
-> Fecha: Junio 2026
-
 ---
 
 ## 📑 Tabla de Contenidos
@@ -172,7 +167,7 @@ FIN ALGORITMO
 
 ## 2. Estructuras Repetitivas
 
-Las **estructuras repetitivas** (también llamadas *bucles* o *ciclos*) permiten ejecutar un conjunto de instrucciones **varias veces** mientras se cumpla una condición. Evitan la repetición manual de código y permiten procesar colecciones de datos.
+Las **estructuras repetitivas** permiten ejecutar un conjunto de instrucciones varias veces mientras se cumpla una condición. Evitan la repetición manual de código y permiten procesar colecciones de datos.
 
 ---
 
@@ -180,10 +175,8 @@ Las **estructuras repetitivas** (también llamadas *bucles* o *ciclos*) permiten
 
 #### 🔄 1. Bucle `while` (Mientras)
 
-Repite un bloque de instrucciones **mientras** la condición sea verdadera. La condición se evalúa **antes** de ejecutar el bloque, por lo que si la condición es falsa desde el inicio, el bloque nunca se ejecuta.
+Repite un bloque de instrucciones mientras la condición sea verdadera. La condición se evalúa antes de ejecutar el bloque, por lo que si la condición es falsa desde el inicio, el bloque nunca se ejecuta.
 
-- **Tipo:** Bucle con condición de entrada (precondicional)
-- **Uso:** Cuando no se sabe de antemano cuántas veces se repetirá
 
 ```
 Mientras (condición) hacer
@@ -193,12 +186,9 @@ Fin Mientras
 
 ---
 
-#### 🔄 2. Bucle `do - while` (Hacer - Mientras)
+#### 🔄 2. Bucle `do - while`
 
-Ejecuta el bloque de instrucciones **al menos una vez** y luego repite **mientras** la condición sea verdadera. La condición se evalúa **después** de ejecutar el bloque.
-
-- **Tipo:** Bucle con condición de salida (postcondicional)
-- **Uso:** Cuando se necesita garantizar al menos una ejecución (ej. menús)
+Ejecuta el bloque de instrucciones al menos una vez y luego repite mientras la condición sea verdadera. La condición se evalúa después de ejecutar el bloque.
 
 ```
 Hacer
@@ -233,7 +223,7 @@ Fin Para
 
 ### 2.2 Diagrama de Flujo – Repetitiva
 
-#### Bucle `while` (condición al inicio)
+#### Bucle `while` 
 
 ```
        ┌─────────┐
@@ -351,11 +341,11 @@ FIN ALGORITMO
 ### 3.2 Análisis del Problema
 
 #### Entradas (datos que recibe el programa)
-| Variable | Tipo | Descripción |
-|----------|------|-------------|
-| `n` | Entero | Cantidad de estudiantes |
-| `nombre` | Cadena | Nombre del estudiante |
-| `nota` | Real | Calificación del estudiante (0.0 – 10.0) |
+| Variable |  Tipo  |               Descripción                |
+|----------|--------|------------------------------------------|
+|    `n`   | Entero |          Cantidad de estudiantes         |
+| `nombre` | Cadena |           Nombre del estudiante          |
+|  `nota`  |  Real  | Calificación del estudiante (0.0 – 10.0) |
 
 #### Salidas (resultados que produce el programa)
 |   Variable  |  Tipo  |              Descripción               |
@@ -442,70 +432,74 @@ aprobados++                       reprobados++               │
 
 ### 3.4 Codificación – Código Fuente
 
-> **Lenguaje:** Python 3
 
-```python
-# ============================================================
-# Programa: Calificaciones de Estudiantes
-# Descripción: Lee notas de N estudiantes, determina si
-#              aprobaron o reprobaron y muestra estadísticas.
-# Autor: (Tu nombre)
-# Fecha: Junio 2026
-# ============================================================
+```C
+#include <stdio.h>
 
-def main():
-    # --- Entrada de datos ---
-    n = int(input("Ingrese el número de estudiantes: "))
+int main() {
+    // Variables
+    int n, i;
+    int aprobados = 0, reprobados = 0;
+    float nota, suma = 0, promedio;
+    float nota_maxima = 0;
+    char nombre[50];
 
-    # --- Inicialización de variables ---
-    suma = 0
-    aprobados = 0
-    reprobados = 0
-    nota_maxima = 0
+    // Entrada de datos
+    printf("Ingrese el numero de estudiantes: ");
+    scanf("%d", &n);
 
-    # --- Estructura repetitiva: FOR ---
-    for i in range(1, n + 1):
-        print(f"\n--- Estudiante {i} ---")
-        nombre = input("Nombre del estudiante: ")
-        nota = float(input(f"Nota de {nombre} (0-10): "))
+    // Estructura repetitiva FOR
+    for (i = 1; i <= n; i++) {
 
-        # Validación del rango de la nota
-        while nota < 0 or nota > 10:
-            print("⚠ Error: La nota debe estar entre 0 y 10.")
-            nota = float(input(f"Ingrese nuevamente la nota de {nombre}: "))
+        printf("\n--- Estudiante %d ---\n", i);
 
-        # Acumulamos la suma para el promedio
-        suma += nota
+        printf("Nombre del estudiante: ");
+        scanf("%s", nombre);
 
-        # Actualizamos la nota máxima
-        if nota > nota_maxima:
-            nota_maxima = nota
+        printf("Nota de %s (0-10): ", nombre);
+        scanf("%f", &nota);
 
-        # --- Estructura condicional: IF-ELSE ---
-        if nota >= 7:
-            print(f"✅ {nombre} APROBÓ con nota {nota:.1f}")
-            aprobados += 1
-        else:
-            print(f"❌ {nombre} REPROBÓ con nota {nota:.1f}")
-            reprobados += 1
+        // Validación de la nota
+        while (nota < 0 || nota > 10) {
+            printf("ERROR: La nota debe estar entre 0 y 10.\n");
+            printf("Ingrese nuevamente la nota de %s: ", nombre);
+            scanf("%f", &nota);
+        }
 
-    # --- Cálculo del promedio ---
-    promedio = suma / n
+        // Acumulamos para el promedio
+        suma += nota;
 
-    # --- Resultados finales ---
-    print("\n" + "=" * 45)
-    print("         📊 RESULTADOS FINALES")
-    print("=" * 45)
-    print(f"  Total de estudiantes : {n}")
-    print(f"  Promedio del grupo   : {promedio:.2f}")
-    print(f"  Nota mas alta        : {nota_maxima:.1f}")
-    print(f"  Estudiantes aprobados: {aprobados}")
-    print(f"  Estudiantes reprobados: {reprobados}")
-    print("=" * 45)
+        // Actualizamos la nota máxima
+        if (nota > nota_maxima) {
+            nota_maxima = nota;
+        }
 
-# Punto de entrada del programa
-if __name__ == "__main__":
-    main()
+        // Determinar aprobado o reprobado
+        if (nota >= 7) {
+            printf("%s APROBO con nota %.1f\n", nombre, nota);
+            aprobados++;
+        } else {
+            printf("%s REPROBO con nota %.1f\n", nombre, nota);
+            reprobados++;
+        }
+    }
+
+    // Cálculo del promedio
+    promedio = suma / n;
+
+    // Resultados finales
+    printf("\n=============================================\n");
+    printf("           RESULTADOS FINALES\n");
+    printf("=============================================\n");
+    printf("Total de estudiantes   : %d\n", n);
+    printf("Promedio del grupo     : %.2f\n", promedio);
+    printf("Nota mas alta          : %.1f\n", nota_maxima);
+    printf("Estudiantes aprobados  : %d\n", aprobados);
+    printf("Estudiantes reprobados : %d\n", reprobados);
+    printf("=============================================\n");
+
+    return 0;
+}
 ```
 
 ---
