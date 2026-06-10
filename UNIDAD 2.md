@@ -117,6 +117,7 @@ A continuación se presentan los diagramas de flujo para las dos estructuras con
 #### Condicional Doble (`if - else`)
 
 ```
+```
             ┌─────────┐
             │  INICIO │
             └────┬────┘
@@ -135,6 +136,7 @@ A continuación se presentan los diagramas de flujo para las dos estructuras con
           │   FIN   │
           └─────────┘
 ```
+```
 
 > 💡 **Simbología usada:**
 > - **Óvalo**: Inicio / Fin del algoritmo
@@ -148,6 +150,7 @@ A continuación se presentan los diagramas de flujo para las dos estructuras con
 
 #### Ejemplo: Determinar si un número es positivo, negativo o cero
 
+```
 ```
 ALGORITMO ClasificarNumero
     INICIO
@@ -205,12 +208,9 @@ Mientras (condición)
 
 ---
 
-#### 🔄 3. Bucle `for` (Para)
+#### 🔄 3. Bucle `for` 
 
 Repite un bloque un número **determinado** de veces, controlado por un contador con valor inicial, condición de parada e incremento.
-
-- **Tipo:** Bucle con contador (número de repeticiones conocido)
-- **Uso:** Cuando se conoce de antemano cuántas iteraciones se necesitan
 
 ```
 Para i = valorInicial hasta valorFinal con paso N hacer
@@ -222,12 +222,12 @@ Fin Para
 
 #### Comparativa de los tres tipos
 
-| Característica      | `while`          | `do-while`        | `for`              |
-|---------------------|-----------------|-------------------|--------------------|
-| Evaluación condición | Antes del bloque | Después del bloque | Antes del bloque   |
-| Ejecuciones mínimas | 0               | 1                 | 0                  |
-| Contador explícito  | Manual           | Manual            | Incorporado        |
-| Iteraciones conocidas | No necesario  | No necesario      | Sí (generalmente) |
+| Característica      | `while`         | `do-while`        | `for`                |
+|---------------------|-----------------|-------------------|--------------------  |
+| Evaluación condición  | Antes del bloque | Después del bloque | Antes del bloque |
+| Ejecuciones mínimas   | 0                | 1                  | 0                |
+| Contador explícito    | Manual           | Manual             | Incorporado      |
+| Iteraciones conocidas | No necesario     | No necesario       | Sí (generalmente)|
 
 ---
 
@@ -358,18 +358,18 @@ FIN ALGORITMO
 | `nota` | Real | Calificación del estudiante (0.0 – 10.0) |
 
 #### Salidas (resultados que produce el programa)
-| Variable | Tipo | Descripción |
-|----------|------|-------------|
-| `promedio` | Real | Promedio general del grupo |
-| `notaMaxima` | Real | Calificación más alta del grupo |
-| `aprobados` | Entero | Cantidad de estudiantes que aprobaron |
-| `reprobados` | Entero | Cantidad de estudiantes que reprobaron |
+|   Variable  |  Tipo  |              Descripción               |
+|-------------|--------|----------------------------------------|
+| `promedio`  | Real   | Promedio general del grupo             |
+| `notaMaxima`| Real   | Calificación más alta del grupo        |
+| `aprobados` | Entero | Cantidad de estudiantes que aprobaron  |
+| `reprobados`| Entero | Cantidad de estudiantes que reprobaron |
 
 #### Variables auxiliares
-| Variable | Tipo | Descripción |
-|----------|------|-------------|
-| `suma` | Real | Acumulador de notas para calcular el promedio |
-| `i` | Entero | Contador del bucle |
+| Variable |  Tipo  |                  Descripción                  |
+|----------|--------|-----------------------------------------------|
+| `suma`   |  Real  | Acumulador de notas para calcular el promedio |
+|    `i`   | Entero | Contador del bucle                            |
 
 #### Condiciones y restricciones
 - La nota debe estar en el rango `[0, 10]`
@@ -537,7 +537,7 @@ Se ejecuta el programa con **3 estudiantes** como caso de prueba para verificar 
 promedio = suma / n = 20.5 / 3 = 6.83
 ```
 
-#### Salida esperada en consola
+#### Salida en consola
 
 ```
 --- Estudiante 1 ---
@@ -597,12 +597,3 @@ El estudio de las estructuras condicionales y repetitivas marcó un punto de inf
 
 ---
 
-## 📚 Referencias
-
-- Joyanes Aguilar, L. (2008). *Fundamentos de Programación: Algoritmos, Estructura de Datos y Objetos* (4.ª ed.). McGraw-Hill.
-- Cormen, T. H., et al. (2009). *Introduction to Algorithms* (3.ª ed.). MIT Press.
-- Python Software Foundation. (2024). *Python 3 Documentation*. https://docs.python.org/3/
-
----
-
-*📁 Portafolio académico — Unidad 2 | Fundamentos de Programación*
