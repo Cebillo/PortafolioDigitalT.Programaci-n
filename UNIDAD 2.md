@@ -1,4 +1,4 @@
-# 📘 Unidad 2 – Estructuras de Control en Programación
+# 📘 Unidad 2 
 
 > **Portafolio de Aprendizaje** · Fundamentos de Programación  
 > Autor: *(Tu nombre aquí)*  
