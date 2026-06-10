@@ -12,7 +12,7 @@ Facultad de la Energía, las Industrias y los Recursos Naturales no Renovables
 
 
 ## 📋 **Datos Generales**
-```
+
 <table align="center">
 <tr>
 <td><strong>Estudiante</strong></td>
@@ -43,7 +43,7 @@ Facultad de la Energía, las Industrias y los Recursos Naturales no Renovables
 <td>Abril - Agosto</td>
 </tr>
 </table>
-```
+
 
 
 ##  **Descripción**
@@ -53,13 +53,13 @@ Este repositorio contiene todos los trabajos y tareas realizados en cada unidad 
 
 
 ##  **Contenido**
-```
+
 [📘 Unidad 1](UNIDAD1.md)
 
 [📘 Unidad 2](UNIDAD2.md)
 
 [📘 Unidad 3](UNIDAD3.md)
-```
+
 
 
 
