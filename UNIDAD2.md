@@ -585,4 +585,4 @@ El estudio de las estructuras condicionales y repetitivas marcó un punto de inf
 
 ---
 
-[📘 Unidad 3](CARÁTULA.md)
+[📘 Carátula](CARÁTULA.md)
