@@ -583,8 +583,6 @@ El estudio de las estructuras condicionales y repetitivas marcó un punto de inf
 
 **El mayor aprendizaje** fue que los errores lógicos son más peligrosos que los errores de sintaxis: el programa puede ejecutarse sin mensajes de error pero producir resultados completamente incorrectos. La prueba de escritorio es una herramienta esencial para detectar estos errores antes de la ejecución.
 
-
-> *"Un algoritmo bien diseñado es la mitad del problema resuelto."*
-
 ---
 
+[📘 Unidad 3](CARÁTULA.md)
