@@ -87,52 +87,18 @@ Fin Según
 A continuación se presentan los diagramas de flujo para las dos estructuras condicionales:
 
 #### Condicional Simple (if)
+<img width="362" height="353" alt="image" src="https://github.com/user-attachments/assets/e48ceb85-8a6c-40ab-932c-34cce6b45036" />
 
-```
-       ┌─────────┐
-       │  INICIO │
-       └────┬────┘
-            │
-     ┌──────▼──────┐
-     │  Condición  │──── NO ────┐
-     └──────┬──────┘            │
-           SÍ                   │
-            │                   │
-    ┌───────▼────────┐          │
-    │  Instrucciones │          │
-    └───────┬────────┘          │
-            │◄───────────────────┘
-       ┌────▼────┐
-       │   FIN   │
-       └─────────┘
-```
+
 
 #### Condicional Doble (if - else)
+<img width="257" height="313" alt="image" src="https://github.com/user-attachments/assets/579cdea4-d790-4a07-acc2-12857fea78a2" />
 
-```
 
-            ┌─────────┐
-            │  INICIO │
-            └────┬────┘
-                 │
-         ┌───────▼───────┐
-    ┌────┤   Condición   ├────┐
-   SÍ    └───────────────┘   NO
-    │                         │
-┌───▼──────────┐     ┌────────▼─────┐
-│ Instruc. "V" │     │ Instruc. "F" │
-└───┬──────────┘     └────────┬─────┘
-    │                         │
-    └──────────┬──────────────┘
-               │
-          ┌────▼────┐
-          │   FIN   │
-          └─────────┘
-```
 
 > 💡 **Simbología usada:**
 > - **Óvalo**: Inicio / Fin del algoritmo
-> - **Rombo** (`◇`): Condición o decisión (sí/no, verdadero/falso)
+> - **Rombo** (◇): Condición o decisión (sí/no, verdadero/falso)
 > - **Rectángulo**: Instrucción o proceso
 > - **Flechas**: Flujo de ejecución
 
@@ -183,7 +149,7 @@ Fin Mientras
 
 ---
 
-#### 🔄 2. Bucle `do - while`
+#### 🔄 2. Bucle  do - while 
 
 Ejecuta el bloque de instrucciones al menos una vez y luego repite mientras la condición sea verdadera. La condición se evalúa después de ejecutar el bloque.
 
@@ -195,7 +161,7 @@ Mientras (condición)
 
 ---
 
-#### 🔄 3. Bucle `for` 
+#### 🔄 3. Bucle for 
 
 Repite un bloque un número determinado de veces, controlado por un contador con valor inicial, condición de parada e incremento.
 ```
@@ -209,7 +175,7 @@ Fin Para
 
 #### Comparativa de los tres tipos
 
-| Característica        | `while`          | `do-while`         | `for`            |
+| Característica        |   while          |  do-while          |  for             |
 |-----------------------|------------------|--------------------|------------------|
 | Evaluación condición  | Antes del bloque | Después del bloque | Antes del bloque |
 | Ejecuciones mínimas   | 0                | 1                  | 0                |
@@ -220,72 +186,15 @@ Fin Para
 
 ### 2.2 Diagrama de Flujo – Repetitiva
 
-#### Bucle `while` 
+#### Bucle while 
 
-```
-       ┌─────────┐
-       │  INICIO │
-       └────┬────┘
-            │
-     ┌──────▼──────┐
-┌────┤  Condición  ├──── NO ──► FIN
-│    └─────────────┘
-SÍ
-│
-│   ┌────────────────┐
-└──►│  Instrucciones │
-    └────────┬───────┘
-             │
-             └────────────────┘ (vuelve a la condición)
+<img width="223" height="285" alt="image" src="https://github.com/user-attachments/assets/b24178c5-9c69-4ae5-a614-88a5b23788ae" />
 
-```
-
-#### Bucle `do-while` (condición al final)
-
-```
-       ┌─────────┐
-       │  INICIO │
-       └────┬────┘
-            │
-   ┌────────▼────────┐
-   │  Instrucciones  │◄────────┐
-   └────────┬────────┘         │
-            │                  │
-     ┌──────▼──────┐           │
-     │  Condición  │───SÍ──────┘
-     └──────┬──────┘
-           NO
-            │
-       ┌────▼────┐
-       │   FIN   │
-       └─────────┘
-```
+#### Bucle do-while (condición al final)
+<img width="337" height="737" alt="image" src="https://github.com/user-attachments/assets/24af37ff-da23-453e-88f3-27637e73a62c" />
 
 #### Bucle for (con contador)
-
-```
-       ┌─────────┐
-       │  INICIO │
-       └────┬────┘
-            │
-   ┌────────▼────────┐
-   │  i = valorInicial│
-   └────────┬────────┘
-            │
-     ┌──────▼──────┐
-┌────┤  i <= límite ├──── NO ──► FIN
-│    └─────────────┘
-SÍ
-│
-│   ┌────────────────┐
-└──►│  Instrucciones │
-    └────────┬───────┘
-             │
-    ┌────────▼────────┐
-    │    i = i + paso  │
-    └────────┬────────┘
-             └──────────────────┘ (vuelve a la condición)
-```
+<img width="360" height="472" alt="image" src="https://github.com/user-attachments/assets/3dd464fa-24a6-4b2c-adef-d42ce007baf5" />
 
 ---
 
@@ -367,63 +276,8 @@ FIN ALGORITMO
 
 ### 3.3 Diseño del Algoritmo – Diagrama de Flujo
 
-```
-                    ┌──────────────────┐
-                    │      INICIO      │
-                    └────────┬─────────┘
-                             │
-                    ┌────────▼─────────┐
-                    │  Leer n          |
-                    └────────┬─────────┘
-                             │
-                    ┌────────▼──────────────────────┐
-                    │ suma=0, aprobados=0,          |
-                    │ reprobados=0, notaMaxima=0,   |
-                    │ i=1                           |
-                    └────────┬──────────────────────┘
-                             │
-                    ┌────────▼─────────┐
-               ┌────┤     i <= n       ├──── NO ────────────┐
-               SÍ   └──────────────────┘                     │
-               │                                             |
-     ┌─────────▼──────────┐                                  │
-     │ Leer nombre, nota  │                                  │
-     └─────────┬──────────┘                                  │
-               │                                             |
-     ┌─────────▼──────────┐                                  │ 
-     │ suma = suma + nota |                                  |
-     └─────────┬──────────┘                                  │
-               │                                             |
-     ┌─────────▼──────────┐                                  │
-     │  nota > notaMaxima │──SÍ──► notaMaxima = nota         │
-     └─────────┬──────────┘                                  │
-               │                                             |
-     ┌─────────▼──────────┐                                  │
-┌────┤     nota >= 7       ├──── NO ────┐                    │ 
-SÍ   └────────────────────┘             │                    | 
-│                                       │                    │
-▼                                       ▼                    │
-aprobados++                       reprobados++               │
-│                                       │                    │
-└──────────────┬────────────────────────┘                    │
-               │                                             |
-     ┌─────────▼──────────┐                                  │
-     │     i = i + 1      │                                  │
-     └─────────┬──────────┘                                  │
-               └──────────────────────────┘ (vuelve)         │
-                    ┌────────▼──────────────────────┐◄───────┘
-                    │ promedio = suma / n           |
-                    └────────┬──────────────────────┘
-                             │
-                    ┌────────▼──────────────────────┐
-                    │ Mostrar promedio, notaMaxima,  │
-                    │ aprobados, reprobados          │
-                    └────────┬──────────────────────┘
-                             │
-                    ┌────────▼─────────┐
-                    │       FIN        │
-                    └──────────────────┘
-```
+<img width="518" height="948" alt="image" src="https://github.com/user-attachments/assets/42770408-4d64-411c-b9fe-dd282daeef85" />
+
 
 ---
 
@@ -573,15 +427,13 @@ Nota de Lucía (0-10): 7.0
 ### 🚧 Dificultades encontradas
 
 #### 1. Comprensión de las condiciones en los bucles
-Al inicio resultó confuso entender la diferencia entre un bucle `while` (que puede no ejecutarse nunca) y un `do-while` (que siempre se ejecuta al menos una vez). Elegir el tipo incorrecto puede generar errores lógicos difíciles de detectar.
+Al inicio resultó confuso entender la diferencia entre un bucle while  y un do-while . Elegir el tipo incorrecto puede generar errores lógicos difíciles de detectar.
 
 ### 💡 Reflexión Crítica
 
-El estudio de las estructuras condicionales y repetitivas marcó un punto de inflexión en mi comprensión de la programación. Antes de esta unidad, los programas que podía escribir eran secuenciales y limitados; ahora comprendo que la lógica real de cualquier sistema está construida sobre decisiones y repeticiones.
+Aprender sobre las estructuras condicionales y repetitivas me ayudó a entender mucho mejor cómo funciona la programación. Antes de estudiar este tema, solo podía crear programas sencillos que seguían instrucciones paso a paso. Ahora sé que la mayoría de los programas necesitan tomar decisiones y repetir acciones para funcionar correctamente.
 
-**Lo más valioso** fue aprender que el diseño del algoritmo tanto en pseudocódigo como en diagrama de flujo debe hacerse **antes** de escribir código. Cuando se salta este paso y se va directamente a programar, el código tiende a ser desordenado y lleno de errores difíciles de corregir.
-
-**El mayor aprendizaje** fue que los errores lógicos son más peligrosos que los errores de sintaxis: el programa puede ejecutarse sin mensajes de error pero producir resultados completamente incorrectos. La prueba de escritorio es una herramienta esencial para detectar estos errores antes de la ejecución.
+Lo que más me llamó la atención fue la importancia de planificar antes de programar. Hacer el pseudocódigo y el diagrama de flujo primero permite organizar las ideas y evitar muchos errores. Cuando uno empieza a escribir código sin una planificación previa, es más fácil confundirse y cometer errores que después son difíciles de encontrar.
 
 ---
 
