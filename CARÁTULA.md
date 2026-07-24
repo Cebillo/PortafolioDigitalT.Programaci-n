@@ -55,6 +55,9 @@ Este repositorio contiene todos los trabajos y tareas realizados en cada unidad 
 [2] P. Deitel y H. Deitel, C: Cómo programar, 8.ª ed. México: Pearson Educación, 2022. 
 [3] PseInt Project, "PseInt - Herramienta educativa para pseudocódigo," 2023. 
 [4] C. Cabo, "Student Progress in Learning Computer Programming: Insights from Association Analysis," IEEE Frontiers in Education Conference (FIE), Covington, KY, USA, 2019, pp. 1-8.
+[5] L. Joyanes Aguilar, *Fundamentos de Programación: Algoritmos, Estructuras de Datos y Objetos*, 5th ed. Madrid, España: McGraw-Hill, 2020.
+
+[6] T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, *Introduction to Algorithms*, 4th ed. Cambridge, MA, USA: MIT Press, 2022.
 
 
 ##  **Contenido**
