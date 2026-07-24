@@ -140,9 +140,9 @@ Al principio me costó entender bien la diferencia entre paso por valor y paso p
 
 Con los arreglos, la parte que más se me complicó fue el manejo de índices en las matrices y en el arreglo tridimensional, porque es fácil perderse contando filas, columnas y niveles, y terminar con un error de índice fuera de rango. Me ayudó bastante dibujar en papel cómo se organiza la memoria antes de escribir el código.
 
-En general esta unidad me hizo ver por qué es importante organizar el código en funciones y no escribir todo junto: cuando algo falla, es mucho más fácil revisar una función pequeña que buscar el error en un programa entero.
-
 ---
+## Aprendizaje de la Unidad
+Esta unidad me hizo ver por qué es importante organizar el código en funciones y no escribir todo junto: cuando algo falla, es mucho más fácil revisar una función pequeña que buscar el error en un programa entero.
 
 ## Conclusiones generales
 
