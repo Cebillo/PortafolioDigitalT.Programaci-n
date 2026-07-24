@@ -149,19 +149,6 @@ En general esta unidad me hizo ver por qué es importante organizar el código e
 Con estas tres unidades pude ir avanzando desde las estructuras básicas de un programa (condicionales y repetitivas) hasta temas más de organización del código, como la modularidad y el manejo de arreglos. Creo que lo más valioso fue entender que programar no es solo hacer que el código funcione, sino organizarlo de una forma que otra persona (o yo mismo más adelante) pueda entenderlo sin problema. La práctica constante con ejemplos y errores fue lo que más me ayudó a fijar los conceptos.
 
 ---
-
-## Bibliografía (IEEE)
-
-> Nota: revisa que las ediciones y años coincidan con los libros/recursos que tú realmente usaste o que tengas acceso a consultar, para que la bibliografía sea exacta.
-
-[1] P. J. Deitel and H. M. Deitel, *C: How to Program*, 9th ed. Hoboken, NJ, USA: Pearson, 2022.
-
-[2] L. Joyanes Aguilar, *Fundamentos de Programación: Algoritmos, Estructuras de Datos y Objetos*, 5th ed. Madrid, España: McGraw-Hill, 2020.
-
-[3] T. H. Cormen, C. E. Leiserson, R. L. Rivest, and C. Stein, *Introduction to Algorithms*, 4th ed. Cambridge, MA, USA: MIT Press, 2022.
-
-[4] GeeksforGeeks, "Pass by Value and Pass by Reference in C," 2023. [Online]. Available: https://www.geeksforgeeks.org/pass-by-reference-vs-value-in-c/
-
 ---
 
 ## Declaración de uso de la IA generativa
