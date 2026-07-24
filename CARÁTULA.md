@@ -50,6 +50,11 @@ Facultad de la Energía, las Industrias y los Recursos Naturales no Renovables
 
 Este repositorio contiene todos los trabajos y tareas realizados en cada unidad de la asignatura.
 
+##  **Referencias bibliográficas**
+[1] B. W. Kernighan y D. M. Ritchie, El lenguaje de programación C, México: Prentice Hall, 2021. 
+[2] P. Deitel y H. Deitel, C: Cómo programar, 8.ª ed. México: Pearson Educación, 2022. 
+[3] PseInt Project, "PseInt - Herramienta educativa para pseudocódigo," 2023. 
+[4] C. Cabo, "Student Progress in Learning Computer Programming: Insights from Association Analysis," IEEE Frontiers in Education Conference (FIE), Covington, KY, USA, 2019, pp. 1-8.
 
 
 ##  **Contenido**
